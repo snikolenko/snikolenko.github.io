@@ -1,7 +1,7 @@
 ### Site info:
-title: Бесцветные зелёные идеи
-tagline: живут и побеждают
-description: "что происходит в мире NLP+ML"
+title: Colorless green ideas
+tagline: waking up
+description: "NLP+ML"
 keywords: "machine learning, natural language processing, neural networks"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://snikolenko.github.io/" # the base hostname & protocol for your site
@@ -9,7 +9,7 @@ locale: en_US
 
 ### Personal info and site tools info:
 favicon: "/images/favicon.ico"
-aboutme: Новости около NLP + Deep Learning
+aboutme: New papers on NLP + Deep Learning
 aboutme_photo: # your photo.
 google_analytics_key: # put YOUR key here to enable tracking! (blank to disable)
 
@@ -17,7 +17,7 @@ google_analytics_key: # put YOUR key here to enable tracking! (blank to disable)
 ### Site setting:
 ShowContactInfo: "False"
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "ru" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl) and Korean(kr)
+default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl) and Korean(kr)
 
 locales:
     en:
