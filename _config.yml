@@ -1,6 +1,8 @@
 ### Site info:
-title: Hidden layer, bring me a dream
-tagline: a tale full of sound and fury, told by a recurrent neural network
+##title: Hidden layer, bring me a dream
+##tagline: a tale full of sound and fury, told by a recurrent neural network
+title: Colorless green ideas
+tagline: waking up
 description: "machine learning-aided natural language processing"
 keywords: "machine learning, natural language processing, neural networks"
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -10,7 +12,8 @@ locale: en_US
 
 ### Personal info and site tools info:
 favicon: "/images/favicon.ico"
-aboutme: Machine learning, NLP, AI
+aboutme: New papers on NLP + Deep Learning
+aboutme_photo: # your photo.
 google_analytics_key: # put YOUR key here to enable tracking! (blank to disable)
 
 
