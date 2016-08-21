@@ -13,10 +13,14 @@
   margin-bottom: 0;
   text-align:center;
   a{
-    &,
-    &:visited
+    color: $brand-top-color;
+
+    &:visited {
+
+    }
+
     &:hover {
-      color: $brand-top-color; //$grey-color-dark
+      color: $hover-color; //$brand-top-color; //$grey-color-dark
       border-bottom: 1px dotted;
       text-decoration: none;
     }
@@ -34,7 +38,7 @@
 
 .site-nav {
   /*float: right;*/
-  line-height: 56px;
+  line-height: 46px;
   border-top: 1px solid $grey-color-light;
   border-bottom: 1px solid $grey-color-light;
   .menu-icon {
@@ -49,10 +53,9 @@
 
     margin-left: 10px;
     margin-right: 10px;
-
   }
 
-  a{
+  a {
     text-decoration: none;
 
     &:hover {

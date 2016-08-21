@@ -9,7 +9,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -24,7 +23,6 @@ body {
 }
 
 
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -35,14 +33,9 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-
-
-
-
 /**
  * Set main page style
  */
-
 .container {
   min-height:100%;
   max-width: -webkit-calc(#{$page-width} - (#{$spacing-unit} * 2));
@@ -75,15 +68,14 @@ ul, ol, dl, figure,
 @media screen and (min-width : $on-palm) {
   .col-sm-8 {
     float:left;
-    width:65%;
+    width:70%;
   }
 
   .col-sm-2 {
     float:right;
-    width:25%;
+    width:20%;
   }
 }
-
 
 
 /**
@@ -93,7 +85,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
 
 
 /**
@@ -146,7 +137,7 @@ a {
   }
 
   &:hover {
-    color: #669900; //$hover-color;
+    color: $hover-color;
     text-decoration: underline;
   }
 }
@@ -309,7 +300,6 @@ table tr th :last-child, table tr td :last-child { margin-bottom: 0; }
 /**
  * line between each post on main page
  */
-
 hr{
   margin-bottom: 30px;
   border: 0;
