@@ -1,23 +1,23 @@
 ### Site info:
-title: Бесцветные зелёные идеи
-tagline: живут и побеждают
-description: "что происходит в мире NLP+ML"
+title: Hidden layer, bring me a dream
+tagline: a tale full of sound and fury, told by a recurrent neural network
+description: "machine learning-aided natural language processing"
 keywords: "machine learning, natural language processing, neural networks"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://snikolenko.github.io/" # the base hostname & protocol for your site
+url: "http://localhost:4000/" # the base hostname & protocol for your site
 locale: en_US
+
 
 ### Personal info and site tools info:
 favicon: "/images/favicon.ico"
-aboutme: Новости около NLP + Deep Learning
-aboutme_photo: # your photo.
+aboutme: Machine learning, NLP, AI
 google_analytics_key: # put YOUR key here to enable tracking! (blank to disable)
 
 
 ### Site setting:
 ShowContactInfo: "False"
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "ru" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl) and Korean(kr)
+default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl) and Korean(kr)
 
 locales:
     en:
@@ -30,7 +30,7 @@ locales:
       Tags: "Tags"
       Previous: "Older"
       Next: "Newer"
-      PostedInCategories: "Posted in"
+      PostedInCategories: "posted in"
       Taggedwith: "and tagged"
       PostDate: "on "
       Google_search: "Site Search"
@@ -38,6 +38,8 @@ locales:
       About: "About"
       Guestbook: "Guestbook"
       Subscribe: "Subscribe"
+      Authors: "Authors"
+      WrittenBy: "by"
     cn:
       Aboutme: "关于我"
       Archives: "存档"
@@ -146,3 +148,13 @@ kramdown:
 gems: [jekyll-paginate]
 paginate: 5
 excerpt_separator: <!-- more -->
+
+authors:
+  snikolenko:
+    name: Sergey Nikolenko
+    display_name: Sergey N.
+    github: snikolenko
+  alexeyev:
+    name: Anton Alekseev
+    display_name: Anton A.
+    github: alexeyev

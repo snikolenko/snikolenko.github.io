@@ -5,6 +5,4 @@ comments: yes
 permalink: /about/
 ---
 
-Здесь пишут об обработке естественного языка и машинном обучении.
-
-Название -- заголовок [статьи Ольги Митрениной](http://www.russ.ru/Kniga-nedeli/Bescvetnye-zelenye-idei-zhivut-i-pobezhdayut).
+Summaries, news, reports and experiments somehow related to ML-aided natural language processing tasks.

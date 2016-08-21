@@ -20,6 +20,9 @@ layout: default
    
    <header class="post-header">
       <p class="post-meta">
+      {{ site.locales[site.default_locale].WrittenBy }}
+      <a href="{{site.baseurl}}/authors/#{{post.author}}">{{ post.author }}</a>,
+    
       {{ site.locales[site.default_locale].PostedInCategories }}
       {% for cat in post.categories %}
       <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>{% unless post.categories.last == cat%}, {% endunless %}
