@@ -5,6 +5,7 @@ excerpt: "Трюк для нейронного машинного перевод
 categories: papers
 tags: [rnn, char-level, nmt, arxiv-cl-news]
 comments: true
+author: Anton Alexeyev
 ---
 
 [Докладывают](http://arxiv.org/abs/1608.04738)  о хитром сэмплинге для лучшего обучения нейронного посимвольного машинного перевода. Статья подана на ICLR'2017.
