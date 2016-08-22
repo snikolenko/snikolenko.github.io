@@ -15,7 +15,7 @@ disqus_shortname: snikolenko-github-io
 favicon: "/images/favicon.ico"
 aboutme: New papers on NLP + Deep Learning
 aboutme_photo: # your photo.
-google_analytics_key: # put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: UA-82925815-1 # put YOUR key here to enable tracking! (blank to disable)
 
 
 ### Site setting:
