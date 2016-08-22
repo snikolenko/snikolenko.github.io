@@ -9,8 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://localhost:4000/" # the base hostname & protocol for your site
 locale: en_US
 
-site:
-    disqus_shortname: snikolenko-github-io
+disqus_shortname: snikolenko-github-io
 
 ### Personal info and site tools info:
 favicon: "/images/favicon.ico"
