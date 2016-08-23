@@ -2,7 +2,7 @@
 layout: post
 title: Class Activation Mapping
 excerpt: ""
-categories: [papers, tools]
+categories: papers
 tags: [deep learning, interpreting neural networks, general]
 comments: true
 author: alexeyev
