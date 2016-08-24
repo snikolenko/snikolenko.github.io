@@ -6,7 +6,7 @@ tagline: waking up
 description: "machine learning-aided natural language processing"
 keywords: "machine learning, natural language processing, neural networks"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000/" # the base hostname & protocol for your site
+url: "http://snikolenko.github.io/" # the base hostname & protocol for your site
 locale: en_US
 
 disqus_shortname: snikolenko-github-io
